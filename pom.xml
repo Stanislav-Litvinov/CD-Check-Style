@@ -82,6 +82,14 @@
                         <type>pom</type>
                     </dependency>
                 </dependencies>
+                      <executions>
+                    <execution>
+                        <id>check</id>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
                         <plugin>
                             <groupId>org.apache.maven.plugins</groupId>
